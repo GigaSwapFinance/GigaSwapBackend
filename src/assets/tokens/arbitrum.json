@@ -1,0 +1,11 @@
+[
+  {
+    "type": "ERC20",
+    "address": "0x0Fcf49425080ef797B48Cb846E6E0951CB8cD854",
+    "name": "GigaSwap Wrapped Ether",
+    "symbol": "gWETH",
+    "decimals": 18,
+    "logoURI": "/images/currencies/gweth.svg",
+    "pairs": []
+  }
+]

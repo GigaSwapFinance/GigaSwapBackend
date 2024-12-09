@@ -1,0 +1,93 @@
+[
+  {
+    "chainId": 1,
+    "asset": "c60_t0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "type": "native",
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "/images/currencies/eth.svg",
+    "pairs": []
+  },
+  {
+    "chainId": 1,
+    "asset": "",
+    "type": "ERC20",
+    "address": "0x83249c6794bca5a77eb8c0af9f1a86e055459cea",
+    "name": "GigaSwap",
+    "symbol": "GIGA",
+    "decimals": 9,
+    "logoURI": "/images/currencies/giga.svg",
+    "pairs": []
+  },
+  {
+    "chainId": 1,
+    "asset": "c60_t0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "type": "ERC20",
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "name": "Tether",
+    "symbol": "USDT",
+    "decimals": 6,
+    "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "pairs": []
+  },
+  {
+    "chainId": 1,
+    "asset": "c60_t0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "type": "ERC20",
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "pairs": []
+  },
+  {
+    "chainId": 1,
+    "asset": "c60_t0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "type": "ERC20",
+    "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "name": "Dai",
+    "symbol": "DAI",
+    "decimals": 18,
+    "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+    "pairs": []
+  },
+
+  {
+    "chainId": 1,
+    "asset": "",
+    "type": "ERC20",
+    "address": "0xc5fB36dd2fb59d3B98dEfF88425a3F425Ee469eD",
+    "name": "Dejitaru Tsuka",
+    "symbol": "TSUKA",
+    "decimals": 9,
+    "logoURI": "/images/currencies/tsuka.png",
+    "pairs": []
+  },
+
+  {
+    "chainId": 1,
+    "asset": "",
+    "type": "ERC20",
+    "address": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+    "name": "Pepe Coin",
+    "symbol": "PEPE",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/24478.png",
+    "pairs": []
+  },
+
+  {
+    "chainId": 1,
+    "asset": "",
+    "type": "ERC20",
+    "address": "0xf23a2bf7619ad93300499c3fc7d7145a06cca562",
+    "name": "noiseGPT",
+    "symbol": "noiseGPT",
+    "decimals": 18,
+    "logoURI": "",
+    "pairs": []
+  }
+]

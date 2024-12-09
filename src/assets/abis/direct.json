@@ -1,0 +1,241 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IDealsController",
+        "name": "dealsController_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IEtherDealPointsController",
+        "name": "eth_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IErc20DealPointsController",
+        "name": "erc20_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IErc721ItemDealPointsController",
+        "name": "erc721Item_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IErc721CountDealPointsController",
+        "name": "erc721Count_",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner2",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "from",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "count",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "withdrawTimer",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct EtherPointCreationData[]",
+            "name": "eth",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "from",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "count",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "withdrawTimer",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct Erc20PointCreationData[]",
+            "name": "erc20",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "from",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "tokenId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "withdrawTimer",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct Erc721ItemPointCreationData[]",
+            "name": "erc721Item",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "from",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "count",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "withdrawTimer",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct Erc721CountPointCreationData[]",
+            "name": "erc721Count",
+            "type": "tuple[]"
+          }
+        ],
+        "internalType": "struct DealCreationData",
+        "name": "data",
+        "type": "tuple"
+      }
+    ],
+    "name": "createDeal",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "dealsController",
+    "outputs": [
+      {
+        "internalType": "contract IDealsController",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "erc20",
+    "outputs": [
+      {
+        "internalType": "contract IErc20DealPointsController",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "erc721Count",
+    "outputs": [
+      {
+        "internalType": "contract IErc721CountDealPointsController",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "erc721Item",
+    "outputs": [
+      {
+        "internalType": "contract IErc721ItemDealPointsController",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "eth",
+    "outputs": [
+      {
+        "internalType": "contract IEtherDealPointsController",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
